@@ -5,7 +5,7 @@
  <img width=200px  src="https://github.com/sambhipiyush/Troubleshooting-and-Debugging-Techniques-Google/blob/master/google_logo-preview.jpg" alt="Git logo"></a>
 </p>
 
-#### Instructor(s) : V. G. Vinod Vydiswaran, Assistant Professor
+#### Instructor(s) : 
 
 ## About this Course
 
