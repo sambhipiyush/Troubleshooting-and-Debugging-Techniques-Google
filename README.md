@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="javascript:void(0)" rel="noopener">
- <img width=400px  src="https://github.com/sambhipiyush/Troubleshooting-and-Debugging-Techniques-Google/blob/master/google_logo-preview.jpg" alt="Git logo"></a>
+ <img width=200px  src="https://github.com/sambhipiyush/Troubleshooting-and-Debugging-Techniques-Google/blob/master/google_logo-preview.jpg" alt="Git logo"></a>
 </p>
 
 #### Instructor(s) : V. G. Vinod Vydiswaran, Assistant Professor
