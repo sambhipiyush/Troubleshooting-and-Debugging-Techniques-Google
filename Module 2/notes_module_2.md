@@ -140,7 +140,7 @@ by Google
 			* ```ffmpeg``` program is used for video transcoding and a CPU intensive process
 			<p align="center">
 			  <a href="javascript:void(0)" rel="noopener">
-				 <img width=200px  src="notesImages/top_output_image1.png" alt="top_output_image1"></a>
+				 <img width=600px  src="notesImages/top_output_image1.png" alt="top_output_image1"></a>
 			</p>
 	* At this point, one thing we can try is to **change the processes priorities** so that the web server takes precedence which can be done
 		* The process priorities in Linux are so that the lower the number, the higher the priority
@@ -319,7 +319,7 @@ by Google
 	```
 	<p align="center">
 	  <a href="javascript:void(0)" rel="noopener">
-		 <img width=200px  src="notesImages/time_cmd_output_image1.png" alt="time_cmd_output_image1"></a>
+		 <img width=600px  src="notesImages/time_cmd_output_image1.png" alt="time_cmd_output_image1"></a>
 	</p>
 	* It took our script 0.129 seconds to send the email. That's not a lot but we only send the message to one user
 	* There are 3 different values in output of time command
@@ -337,7 +337,7 @@ by Google
 		```
 		<p align="center">
 		  <a href="javascript:void(0)" rel="noopener">
-			 <img width=200px  src="notesImages/time_cmd_output_9users_image2.png" alt="time_cmd_output_9users_image2"></a>
+			 <img width=600px  src="notesImages/time_cmd_output_9users_image2.png" alt="time_cmd_output_9users_image2"></a>
 		</p>
 		* It took 0.296 seconds to send the email this time. That's still not a lot but it does look like it's taking longer with a longer list of emails
 * We will use **profiler** known as **pprofile3** to find any expensive operations that we can improve
@@ -354,11 +354,11 @@ by Google
 		```
 		<p align="center">
 		  <a href="javascript:void(0)" rel="noopener">
-			 <img width=200px  src="notesImages/kcachegrind_tool_image1.png" alt="kcachegrind_tool_image1"></a>
+			 <img width=600px  src="notesImages/kcachegrind_tool_image1.png" alt="kcachegrind_tool_image1"></a>
 		</p>
 		<p align="center">
 		  <a href="javascript:void(0)" rel="noopener">
-			 <img width=200px  src="notesImages/kcachegrind_tool_func_call_graph_image2.png" alt="kcachegrind_tool_func_call_graph_image2"></a>
+			 <img width=600px  src="notesImages/kcachegrind_tool_func_call_graph_image2.png" alt="kcachegrind_tool_func_call_graph_image2"></a>
 		</p>
 		* Call Graph, tells us
 			1. the main function is calling the send message function one time
@@ -449,7 +449,7 @@ That way, while the computer is waiting for the slow IO, other work can take pla
 * An interesting thing that happens when we use threads is that the loop will finish as soon as all tasks are scheduled. But it will still take a while until the tasks complete
 	<p align="center">
 	  <a href="javascript:void(0)" rel="noopener">
-		 <img width=200px  src="notesImages/threads_script_image1.png" alt="threads_script_image1"></a>
+		 <img width=600px  src="notesImages/threads_script_image1.png" alt="threads_script_image1"></a>
 	</p>
 * Processes work faster than Threads in python:
 	* This is because, by using processes, we're making even more use of the CPU
