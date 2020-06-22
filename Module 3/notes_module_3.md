@@ -240,13 +240,13 @@ by Google
 				 <img width=600px  src="notesImages/gdb_c_core_output_image1.png" alt="gdb_c_core_output_image1"></a>
 			</p>
 	1. Use the `backtrace` command to look at the full backtrace of the crash
-	```Shell
-	(gbd) backtrace
-	```
-	<p align="center">
-	  <a href="javascript:void(0)" rel="noopener">
-		 <img width=600px  src="notesImages/gdb_backtrace_output_image2.png" alt="gdb_backtrace_output_image2"></a>
-	</p>
+		```Shell
+		(gbd) backtrace
+		```
+		<p align="center">
+		  <a href="javascript:void(0)" rel="noopener">
+			 <img width=600px  src="notesImages/gdb_backtrace_output_image2.png" alt="gdb_backtrace_output_image2"></a>
+		</p>
 		* The first element in the list is the function where the crash occurred
 		* The second element is the function that called the function and so on
 	1. We can use `up` command to move the calling function in `backtrace` and check out the line and copy parameters that caused the crash
