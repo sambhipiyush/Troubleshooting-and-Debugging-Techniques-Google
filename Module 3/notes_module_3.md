@@ -274,7 +274,6 @@ by Google
 			  <a href="javascript:void(0)" rel="noopener">
 				 <img width=600px  src="notesImages/gdb_print_output_image5.png" alt="gdb_print_output_image5"></a>
 			</p>
-	    
 	    * Hexadecimal numbers are used to show addresses in memory where some data is stored
 	    * Print the contents of the first element argv 0, and then the second element argv 1, since argv is being to assign values in code
 	    	```Shell
